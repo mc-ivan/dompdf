@@ -1,6 +1,6 @@
 name: PHP Lint
 run-name: ${{ github.actor }} is checking the project for lint
-on: [pull_request]
+on: [push, pull_request]
 jobs:
   Lint:
     runs-on: ubuntu-22.04
