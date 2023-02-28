@@ -19,3 +19,8 @@ jobs:
         with:
           path: .
           options: --exclude=vendor,*.log
+  UnitTest:
+    needs: Lint
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Here we go for Unit test job"
