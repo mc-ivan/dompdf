@@ -2,7 +2,7 @@ name: PHP Lint
 run-name: ${{ github.actor }} is checking the project for lint
 on: [pull_request]
 jobs:
-  Explore-GitHub-Actions:
+  Lint:
     runs-on: ubuntu-22.04
     steps:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
